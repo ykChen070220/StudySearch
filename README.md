@@ -92,7 +92,6 @@ evaluation/questions.csv  预设评估题和相关页
 evaluation/results.csv    逐题实测结果
 evaluation/summary.json   汇总指标与环境信息
 tests/test_app.py          核心行为测试
-docs/答辩与发布指南.md     演示、答辩准备和发布步骤
 ```
 
 ## 进一步完善
