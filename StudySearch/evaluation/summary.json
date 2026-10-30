@@ -1,0 +1,43 @@
+{
+  "generated_at_utc": "2026-10-30T17:11:22.111118+00:00",
+  "environment": {
+    "python": "3.12.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "PyMuPDF": "1.28.2",
+      "jieba": "0.42.1",
+      "scikit-learn": "1.9.1",
+      "streamlit": "1.66.1"
+    }
+  },
+  "documents": 1,
+  "chunks": 16,
+  "answerable_questions": 20,
+  "unanswerable_questions": 4,
+  "repetitions_per_query": 20,
+  "metrics": {
+    "keyword": {
+      "hit_at_1": 0.9,
+      "hit_at_5": 0.95,
+      "mrr_at_5": 0.925,
+      "median_query_ms": 0.027849979232996702,
+      "unanswerable_return_rate": 0.5,
+      "by_category": {
+        "direct": 1,
+        "paraphrase": 0.75
+      }
+    },
+    "tfidf": {
+      "hit_at_1": 0.9,
+      "hit_at_5": 0.95,
+      "mrr_at_5": 0.925,
+      "median_query_ms": 0.3513249976094812,
+      "unanswerable_return_rate": 0.5,
+      "by_category": {
+        "direct": 1,
+        "paraphrase": 0.75
+      }
+    }
+  },
+  "limitations": "自编小样本，页级人工预设标注，非独立真实课程评测；耗时不含索引、UI和PDF解析。"
+}
